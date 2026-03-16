@@ -65,3 +65,23 @@ $然後更新x_0 = x_1，fx_0 = fx_1，x_1 = x_2，fx_1 = fx_2$
 $割線法不保證root一定在中間，所以有可能會有發散的情況$
 
 $收斂速度比假位法快$
+
+$\quad$
+$\quad$
+$\quad$
+
+# 重根問題
+
+$若f(x) = 0有偶數重根$
+
+$\Rightarrow 1.半區間法及假位法找到重根$
+
+$\quad 2.牛頓法在接近根時，f'(x) \approx 0 \rightarrow 發散$
+
+$假設f(x) = 0在c有重根(n>=2) \Rightarrow f(x) = (x-c)^nh(x) \quad (h(x) = \frac{f(X)}{(x-c)^n})$
+
+$\Rightarrow f'(x) = n(x-c)^{n-1}h(x) + (x-c)^nh'(x)$
+
+$\Rightarrow \frac{f(x)}{f'(x)} \quad = \quad \frac{(x-c)^nh(x)}{n(x-c)^{n-1}h(x) + (x-c)^nh'(x)} \quad = \quad \frac{(x-c)h(x)}{nh(x)+(x-c)h'(x)}$
+
+$讓\frac{f(x)}{f'(x)} = 0，(x-c)h(x) = 0 \quad 和 \quad (x-c)^nh(x) = 0 \quad 具有相同的根，但沒有重根$
