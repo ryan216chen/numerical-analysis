@@ -1,4 +1,4 @@
-# 半區間法
+# 半區間法 Bisection
 
 $若已知f(a)*f(b)<0 ，且f(x)為連續的，則知在a、b之間至少存在一解答。$
 
@@ -23,7 +23,7 @@ $3.永遠收斂$
 
 
 
-# 假位法
+# 假位法 False Position
 
 $與半區間法條件差不多，只是收斂方式是把兩點連成一直線，找這條線與x軸交點$
 
@@ -38,3 +38,17 @@ $f(a)*(fx)<0 \quad \Rightarrow \quad a = x$
 $f(a)*f(x) > 0 \quad \Rightarrow \quad b = x$
 
 $缺點:一邊會一直不動\rightarrow收斂變慢$
+
+# 割線法 Secant line method
+
+$假設有兩點(x_0,f(x_0))、(x_1,f(x_1))，連成一條直線，找與x軸的交點$
+
+$與假位法不同的是，假位法利用中間值定理，區間會逐漸收斂，而割線法則是把兩點都往更新的root去更新$
+
+$斜率m = \frac{fx_1 - fx_0}{x_1 - x_0}，根據上面假位法推導的公式，x = a - \frac{b-a}{f(b)-f(a)}*f(a)\quad \Rightarrow  \quad x_2 = x_0 - \frac{x_1-x_0}{fx_1-fx_0}*fx_0$
+
+$然後更新x_0 = x_1，fx_0 = fx_1，x_1 = x_2，fx_1 = fx_2$
+
+$割線法不保證root一定在中間，所以有可能會有發散的情況$
+
+$收斂速度比假位法快$
