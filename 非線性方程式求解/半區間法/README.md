@@ -82,6 +82,6 @@ $假設f(x) = 0在c有重根(n>=2) \Rightarrow f(x) = (x-c)^nh(x) \quad (h(x) = 
 
 $\Rightarrow f'(x) = n(x-c)^{n-1}h(x) + (x-c)^nh'(x)$
 
-$\Rightarrow \frac{f(x)}{f'(x)} \quad = \quad \frac{(x-c)^nh(x)}{n(x-c)^{n-1}h(x) + (x-c)^nh'(x)} \quad = \quad \frac{(x-c)h(x)}{nh(x)+(x-c)h'(x)}$
+$\Rightarrow \frac{f(x)}{f'(x)} \quad = \quad \frac{(x-c)^nh(x)}{n(x-c)^{n-1}h(x) + (x-c)^nh'(x)} \quad = \quad \frac{(x-c)h(x)}{nh(x)+(x-c)h'(x)} \approx \frac{x-c}{n}$
 
 $讓\frac{f(x)}{f'(x)} = 0，(x-c)h(x) = 0 \quad 和 \quad (x-c)^nh(x) = 0 \quad 具有相同的根，但沒有重根$
