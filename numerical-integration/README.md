@@ -25,11 +25,11 @@ $x_i = a + ih \quad \rightarrow \quad f_i = f(x_i) \quad ... \quad x_N = a +Nh \
 
 $與一等分的近似積分$
 
-$\int_a^b f(x)\,dx \quad =  \quad \int_a^{a+h}f(x)\,dx \quad + \quad \int_{a+h}^{a+2h}f(x)\,dx \quad + \quad ... \quad + \quad \int_{a+(N-1)h}^{a+Nh} \quad \approx \quad  \frac{h}{2}(f_0+f_1) \quad + \quad \frac{h}{2}(f_1+f_2) \quad + \quad ... \quad + \quad \frac{h}{2}(f_{N-1} + f_N)$
+$\int_a^b f(x)\,dx  =   \int_a^{a+h}f(x)\,dx  +  \int_{a+h}^{a+2h}f(x)\,dx  +  ...  +  \int_{a+(N-1)h}^{a+Nh}  \approx   \frac{h}{2}(f_0+f_1)  +  \frac{h}{2}(f_1+f_2)  +  ...  +  \frac{h}{2}(f_{N-1} + f_N)$
 
-$\Rightarrow \quad \frac{h}{2}(f_0 + f_N + 2(f_1+f_2+...+f_{N-1}))$
+$\Rightarrow  \frac{h}{2}(f_0 + f_N + 2(f_1+f_2+...+f_{N-1}))$
 
-$故得到此式: \quad I =\int_a^b f(x)\,dx \quad \approx \quad \frac{h}{2}f_0 + hf_1 + hf_2 + ...+hf_{N-1}+\frac{h}{2}f_N \quad =  \quad \frac{h}{2}(f_0 + 2(f_1+f_2+...+f_{N-1})+f_N)$
+$故得到此式: \quad I =\int_a^b f(x)\,dx \approx  \frac{h}{2}f_0 + hf_1 + hf_2 + ...+hf_{N-1}+\frac{h}{2}f_N  =   \frac{h}{2}(f_0 + 2(f_1+f_2+...+f_{N-1})+f_N)$
 
 ## Simpson法
 
