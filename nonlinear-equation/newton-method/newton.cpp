@@ -31,7 +31,7 @@ int main()
     scanf("%lf",&eps);
     tmp = newton(g,gp,x0,cnt,eps);
     printf("x0 = %10.3f\n",tmp);
-    printf("f(x0) = %10.3f\n",g(tmp));
+    printf("g(x0) = %10.3f\n",g(tmp));
     return 0;
 }
 
