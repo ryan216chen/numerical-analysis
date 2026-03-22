@@ -29,7 +29,7 @@ $\int_a^b f(x)\,dx \quad =  \quad \int_a^{a+h}f(x)\,dx \quad + \quad \int_{a+h}^
 
 $\Rightarrow \quad \frac{h}{2}(f_0 + f_N + 2(f_1+f_2+...+f_{N-1}))$
 
-$故得到此式: \quad I =\int_a^b f(x)\,dx \quad \approx \quad \frac{h}{2}f_0 + hf_1 + hf_2 + ...+hf_{N-1}+\frac{h}{2}f_N = \frac{h}{2}(f_0 + 2(f_1+f_2+...+f_{N-1})+f_N)$
+$故得到此式: \quad I =\int_a^b f(x)\,dx \quad \approx \quad \frac{h}{2}f_0 + hf_1 + hf_2 + ...+hf_{N-1}+\frac{h}{2}f_N \quad =  \quad \frac{h}{2}(f_0 + 2(f_1+f_2+...+f_{N-1})+f_N)$
 
 ## Simpson法
 
